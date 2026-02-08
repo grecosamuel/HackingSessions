@@ -9,7 +9,7 @@ if not bwapp_session:
     exit(1)
 
 # Upload local file shell-low.php
-SHELL_FILE = "shell-low.php"
+SHELL_FILE = "web-shell.php"
 BASE_DIR = Path(__file__).resolve().parent
 LOCAL_SHELL_FILE = f"{Path.joinpath(BASE_DIR, SHELL_FILE)}"
 
